@@ -1,0 +1,48 @@
+.mid-section {
+  height: 663px;
+  /* background-color: #26619c; */
+}
+
+.mid-section::-webkit-scrollbar {
+  display: none;
+}
+
+.first {
+  height: 93%;
+  background-color: #26619c;
+  overflow: auto;
+}
+
+.first::-webkit-scrollbar {
+  display: none;
+}
+
+.material-icons {
+  font-size: 16px;
+}
+
+.alert-primary,
+.alert-secondary,
+.alert-danger,
+.alert-success {
+  width: 70%;
+  clear: both;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.alert-primary {
+  text-align: left;
+}
+
+.alert-secondary {
+  float: right;
+  text-align: right;
+}
+
+.alert-danger,
+.alert-success {
+  margin: auto;
+  /* margin-bottom: 20px; */
+  text-align: center;
+}
